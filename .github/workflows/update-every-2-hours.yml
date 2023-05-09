@@ -1,22 +1,32 @@
-name: Update Every 2 Hours Workflow
+name: Download New Rain Masks around Berlin
 on:
-  push:
-    paths:
-      - "rainviewer_api.ipynb"
-      - .github/workflows/update-every-2-hours.yml
   schedule:
-    - cron: "5 */2 * * *"
-    
+    - cron: "7 */2 * * *"
+#     - cron: '0 0-21/3 * * *'
+  workflow_dispatch:
+  
 jobs:
   launch: # my name
+    name: Update images with new weather data
     runs-on: ubuntu-latest
     steps:
-      - name: Launch the code
-        run: echo The code was launched
-        
-#     - uses: actions/stale@v1.1.0
-#       with:
-#         repo-token: ${{ secrets.GITHUB_TOKEN }}
-#         stale-issue-message: 'Message to comment on stale issues. If none provided, will not mark issues stale'
-#         stale-pr-message: 'Message to comment on stale PRs. If none provided, will not mark PRs stale'
-        
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+          cache: 'pip'
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      - name: Run Script and Update Images
+        run: |
+          jupyter nbconvert --to script rainviewer_api.ipynb
+          python weather_locations.py
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add weather_locations.csv weather_locations.png
+          git commit -m "Updated images on `date` `time` with GitHub Actions"
+          git push origin master
