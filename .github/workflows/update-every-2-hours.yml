@@ -30,4 +30,4 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add .
           git commit -m "Updated images on `date` `time` with GitHub Actions"
-          git push origin master
+          git push origin main
