@@ -5,7 +5,7 @@ on:
       - "rainviewer_api.ipynb"
       - .github/workflows/update-every-2-hours.yml
   schedule:
-    - cron: "37 */1 * * *"
+    - cron: "5 */2 * * *"
     
 jobs:
   launch: # my name
