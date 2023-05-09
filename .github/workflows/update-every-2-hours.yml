@@ -1,0 +1,22 @@
+name: Update Every 2 Hours Workflow
+on:
+  push:
+    paths:
+      - "rainviewer_api.ipynb"
+      - .github/workflows/update-every-2-hours.yml
+  schedule:
+    - cron: "37 */1 * * *"
+    
+jobs:
+  launch: # my name
+    runs-on: ubuntu-latest
+    steps:
+      - name: Launch the code
+        run: echo The code was launched
+        
+#     - uses: actions/stale@v1.1.0
+#       with:
+#         repo-token: ${{ secrets.GITHUB_TOKEN }}
+#         stale-issue-message: 'Message to comment on stale issues. If none provided, will not mark issues stale'
+#         stale-pr-message: 'Message to comment on stale PRs. If none provided, will not mark PRs stale'
+        
