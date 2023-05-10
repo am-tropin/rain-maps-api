@@ -1,8 +1,7 @@
 name: Download New Rain Masks around Berlin
 on:
   schedule:
-    - cron: "15 */4 * * *"
-#     - cron: "7 */2 * * *"
+    - cron: "7 */2 * * *"
 #     - cron: '0 0-21/3 * * *'
   workflow_dispatch:
   
