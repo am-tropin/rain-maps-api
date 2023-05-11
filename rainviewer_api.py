@@ -37,13 +37,12 @@ import os
 location_name = "Berlin"
 
 
-# In[4]:
+# In[47]:
 
 
-# geolocator = Nominatim(user_agent="geoapiExercises")
-# location = geolocator.geocode(location_name)
-# my_coordinates = [location.latitude, location.longitude]
-my_coordinates = [52.5170365, 13.3888599]
+location = Nominatim(user_agent="RainRadar").geocode(location_name) # user_agent="geoapiExercises"
+my_coordinates = [location.latitude, location.longitude]
+# my_coordinates = [52.5170365, 13.3888599]
 
 print("Location address:", location_name)
 print("Latitude and Longitude of the said address:", (my_coordinates[0], my_coordinates[1]))
