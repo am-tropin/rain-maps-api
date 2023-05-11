@@ -13,9 +13,9 @@
 
 
 import requests
-# from bs4 import BeautifulSoup
 
 from geopy.geocoders import Nominatim
+
 from timezonefinder import TimezoneFinder
 from datetime import datetime
 import pytz
@@ -235,18 +235,14 @@ make_gif(png_past_dir, gif_dir)
 
 '''
 IDEAS: 
-
 - TO COMPARE THE FORECAST AND THE PAST (AFTER COLLECTING DATA)
-
-09.05.2023:
-- TO FIX geolocator in CI/CD
 '''
 
 
 # In[ ]:
 
 
-
+# from bs4 import BeautifulSoup
 
 
 # In[30]:
