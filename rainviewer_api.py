@@ -175,7 +175,7 @@ def filename_key(x):
 def make_gif(source_folder, target_folder):
     frames = [Image.open(image) for image in sorted(glob.glob(f"{source_folder}/*.png"), key=lambda x: filename_key(x))]
     frame_one = frames[0]
-    frame_one.save(target_folder + "/" + str.lower(location_name) + f" {request_time: %Y-%m-%d %H:%M:%S %Z}.gif", format="GIF", append_images=frames,
+    frame_one.save(target_folder + "/" + str.lower(location_name) + f"{request_time: %Y-%m-%d %H:%M:%S %Z}.gif", format="GIF", append_images=frames,
                save_all=True, duration=300, loop=0, transparency=0, disposal=2)
 
 # disposal=2 - for replacement instead of overlaying 
