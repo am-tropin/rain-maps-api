@@ -15,7 +15,7 @@ Libraries: requests, geopy, datetime, timezonefinder, pytz, PIL, io, glob, os
 
 - The image dataset of [past rain maps](https://github.com/am-tropin/rain-maps-api/tree/main/past_png) and [forecast rain maps](https://github.com/am-tropin/rain-maps-api/tree/main/nowcast_png) were gathered from [RainViewer](https://www.rainviewer.com/api/weather-maps-api.html) using **API requests**.
 
-![Example of rain map](https://github.com/am-tropin/rain-maps-api/blob/main/for_readme/berlin%201683610200%20(for%20readme).png)
+![Example of rain map](https://github.com/am-tropin/rain-maps-api/blob/main/for_readme/berlin%201683610200.png)
 
 - The data are displayed at timestamps that are multiples of 10 minutes (HH:00, HH:10, ..., HH:50). Past data are available for last 2 hours (13 timestamps), and forecast data are available for following 30 minutes (3 timestamps). To gather a full dataset of past data, I launch the code every 2 hours by building **CI/CD pipelines** in **GitHub Actions**. The code is in [rainviewer_api.ipynb](https://github.com/am-tropin/rain-maps-api/blob/main/rainviewer_api.ipynb) file.
 
