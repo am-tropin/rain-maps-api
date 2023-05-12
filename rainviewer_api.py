@@ -233,33 +233,6 @@ make_gif(png_past_dir, gif_dir)
 # In[ ]:
 
 
-'''
-IDEAS: 
-- TO COMPARE THE FORECAST AND THE PAST (AFTER COLLECTING DATA)
-'''
-
-
-# In[ ]:
-
-
-# from bs4 import BeautifulSoup
-
-
-# In[30]:
-
-
-# make_gif(png_nowcast_dir, 'drafts')
-
-
-# In[ ]:
-
-
-# https://www.geeksforgeeks.org/get-time-zone-of-a-given-location-using-python/
-
-
-# In[ ]:
-
-
 # Radar Object
 
 # KEY			DESCRIPTION													VALUES
