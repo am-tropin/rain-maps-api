@@ -1,0 +1,339 @@
+CNTR_ID,CNTR_NAME,NAME_ENGL,NAME_FREN,ISO3_CODE,SVRG_UN,CAPT,EU_STAT,EFTA_STAT,CC_STAT,NAME_GERM
+ET,Federal Democratic Republic of Ethiopia,Ethiopia,Éthiopie,ETH,UN Member State,Addis-Ababa,F,F,F,Äthiopien
+EV,,Eurasian Patent Organization,,,,,F,F,F,
+EW,,,,,,,F,F,F,
+FI,Suomi-Finland,Finland,Finlande,FIN,UN Member State,Helsinki,T,F,F,Finnland
+FJ,Fiji-Viti-फ़िजी,Fiji,Fidji,FJI,UN Member State,Suva,F,F,F,Fidschi
+FK,Falkland Islands,Falkland Islands,Îles Falkland,FLK,UK Non-Self-Governing Territory,Stanley,F,F,F,Falklandinseln
+FL,Fürstentum Liechtenstein,Liechtenstein,LIECHTENSTEIN,,,,F,F,F,
+FM,Micronesia,Micronesia,Micronésie,FSM,UN Member State,Palikir,F,F,F,Mikronesien
+FO,Færøerne-Føroyar,Faroes,Îles Féroé,FRO,DK Territory,Tórshavn,F,F,F,Färöer
+FR,France,France,France,FRA,UN Member State,Paris,T,F,F,Frankreich
+FX,"France, Metropolitan",France Metropolitan,FRANCE MÉTROPOLITAINE,FXX,,,F,F,F,
+GA,Gabon,Gabon,Gabon,GAB,UN Member State,Libreville,F,F,F,Gabun
+UK,United Kingdom,United Kingdom,Royaume-Uni,GBR,UN Member State,London,F,F,F,Vereinigtes Königreich
+GC,,Patent Office of The Cooperation Council For The A,,,,,F,F,F,
+GD,Grenada,Grenada,Grenade,GRD,UN Member State,Saint George's,F,F,F,Grenada
+GE,საქართველო,Georgia,Géorgie,GEO,UN Member State,Tbilisi,F,F,F,Georgien
+GF,Guyane,French Guiana,Guyane,GUF,FR Territory,Cayenne,F,F,F,Französisch-Guayana
+GG,Guernsey-Guernesey,Guernsey,Guernesey,GGY,UK Territory,St. Peter Port,F,F,F,Guernsey
+GH,Ghana,Ghana,Ghana,GHA,UN Member State,Accra,F,F,F,Ghana
+GI,Gibraltar,Gibraltar,Gibraltar,GIB,UK Non-Self-Governing Territory,Gibraltar,F,F,F,Gibraltar
+GL,Grønland-Kalaallit Nunaat,Greenland,Groenland,GRL,DK Self-Governing Territory,Nuuk,F,F,F,Grönland
+GM,Gambia,Gambia,Gambie,GMB,UN Member State,Banjul,F,F,F,Gambia
+GN,Guinée,Guinea,Guinée,GIN,UN Member State,Conakry,F,F,F,Guinea
+GP,Guadeloupe,Guadeloupe,Guadeloupe,GLP,FR Territory,Basse-Terre,F,F,F,Guadeloupe
+GQ,Guinée Équatoriale-Guinea Ecuatorial,Equatorial Guinea,Guinée équatoriale,GNQ,UN Member State,Malabo,F,F,F,Äquatorialguinea
+GS,South Georgia and The South Sandwich Islands,South Georgia and The South Sandwich Islands,Îles Géorgie du Sud et Sandwich du Sud,SGS,UK Territory,,F,F,F,Südgeorgien und die Südlichen Sandwichinseln
+GT,Guatemala,Guatemala,Guatemala,GTM,UN Member State,Guatemala,F,F,F,Guatemala
+GU,Guåhan-Guam,Guam,Guam,GUM,US Non-Self-Governing Territory,Agana,F,F,F,Guam
+GW,Guiné-Bissau,Guinea-Bissau,Guinée-Bissau,GNB,UN Member State,Bissau,F,F,F,Guinea-Bissau
+GY,Guyana,Guyana,Guyana,GUY,UN Member State,Georgetown,F,F,F,Guyana
+HK,香港,Hong Kong,Hong Kong,HKG,CN Special Administrative Region,Hong Kong,F,F,F,Hongkong
+VA,Stato Della Città Del Vaticano-Status Civitatis Vaticanae,Vatican City,Cité du Vatican,VAT,The City of Vatican,Vaticano,F,F,F,Vatikanstadt
+HM,Heard Island and Mcdonald Islands,Heard Island and Mcdonald Islands,Îles Heard et McDonald,HMD,AU Territory,,F,F,F,Heard und die McDonaldinseln
+HN,Honduras,Honduras,Honduras,HND,UN Member State,Tegucigalpa,F,F,F,Honduras
+NO,Norga-Noreg-Norge,Norway,Norvège,NOR,UN Member State,Oslo,F,T,F,Norwegen
+NP,नेपाल,Nepal,Népal,NPL,UN Member State,Kathmandu,F,F,F,Nepal
+NR,Nauru-Naoero,Nauru,Nauru,NRU,UN Member State,Yaren,F,F,F,Nauru
+NT,Neutral Zone,Neutral Zone,ZONE NEUTRE,NTZ,,,F,F,F,
+NU,Niue-Niuē,Niue,Niué,NIU,NZ Territory,Alofi,F,F,F,Niue
+NZ,New Zealand-Aotearoa,New Zealand,Nouvelle-Zélande,NZL,UN Member State,Wellington,F,F,F,Neuseeland
+OA,,African Intellectual Property Organization,,,,,F,F,F,
+OM,سلطنة عمان,Oman,Oman,OMN,UN Member State,Muscat,F,F,F,Oman
+PA,Panamá,Panama,Panama,PAN,UN Member State,Panamá,F,F,F,Panama
+PE,Piruw-Piruw-Perú,Peru,Pérou,PER,UN Member State,Lima,F,F,F,Peru
+PF,Polynésie Française,French Polynesia,Polynésie française,PYF,FR Territory,Papeete,F,F,F,Französisch-Polynesien
+PG,Papua New Guinea-Papua Niu Gini-Papua Niugini,Papua New Guinea,Papouasie-Nouvelle-Guinée,PNG,UN Member State,Port Moresby,F,F,F,Papua-Neuguinea
+PI,,Philippines,,,,,F,F,F,
+PK,Pakistan-پاكستان,Pakistan,Pakistan,PAK,UN Member State,Islamabad,F,F,F,Pakistan
+PL,Polska,Poland,Pologne,POL,UN Member State,Warsaw,T,F,F,Polen
+PM,Saint-Pierre-Et-Miquelon,Saint Pierre and Miquelon,Saint-Pierre-et-Miquelon,SPM,FR Territory,Saint-Pierre,F,F,F,St. Pierre und Miquelon
+PN,Pitcairn Islands-Pitkern Ailen,Pitcairn Islands,Îles Pitcairn,PCN,UK Non-Self-Governing Territory,Adamstown,F,F,F,Pitcairninseln
+PR,Puerto Rico,Puerto Rico,Porto Rico,PRI,US Territory,San Juan,F,F,F,Puerto Rico
+PS,فلسطين,Palestine,Palestine,PSE,Non-member observer state,,F,F,F,Palästina
+PT,Portugal,Portugal,Portugal,PRT,UN Member State,Lisbon,T,F,F,Portugal
+PW,Palau-Belau,Palau,Palaos,PLW,UN Member State,Koror,F,F,F,Palau
+PY,Paraguay-Paraguái,Paraguay,Paraguay,PRY,UN Member State,Asunción,F,F,F,Paraguay
+QA,قطر,Qatar,Qatar,QAT,UN Member State,Doha,F,F,F,Katar
+QM,Northern Mariana Islands and Guam,Northern Mariana Islands and Guam,ÎLES MARIANNES DU NORD ET GUAM,,US Territroy,,F,F,F,
+AZ,Azərbaycan,Azerbaijan,Azerbaïdjan,AZE,UN Member State,Baku,F,F,F,Aserbaidschan
+BB,Barbados,Barbados,Barbade,BRB,UN Member State,Bridgetown,F,F,F,Barbados
+BD,People’S Republic of Bangladesh,Bangladesh,Bangladesh,BGD,UN Member State,Dhaka,F,F,F,Bangladesch
+BE,Belgien-Belgique-België,Belgium,Belgique,BEL,UN Member State,Brussels,T,F,F,Belgien
+BF,Burkina Faso,Burkina Faso,Burkina,BFA,UN Member State,Ouagadougou,F,F,F,Burkina Faso
+BG,България,Bulgaria,Bulgarie,BGR,UN Member State,Sofia,T,F,F,Bulgarien
+BH,مملكة البحرين,Bahrain,Bahreïn,BHR,UN Member State,Manama,F,F,F,Bahrain
+BI,Burundi-Burundi,Burundi,Burundi,BDI,UN Member State,Gitega,F,F,F,Burundi
+BJ,Bénin,Benin,Bénin,BEN,UN Member State,Porto-Novo (constitutional),F,F,F,Benin
+BM,Bermuda,Bermuda,Bermudes,BMU,UK Non-Self-Governing Territory,Hamilton,F,F,F,Bermuda
+BN,Brunei,Brunei,Brunei,BRN,UN Member State,Bandar Seri Begawan,F,F,F,Brunei
+BO,Wuliwya-Volívia-Bulivya-Bolivia,Bolivia,Bolivie,BOL,UN Member State,La Paz  (adm.),F,F,F,Bolivien
+BR,Brasil,Brazil,Brésil,BRA,UN Member State,Brasília,F,F,F,Brasilien
+BS,Bahamas,Bahamas,Bahamas,BHS,UN Member State,Nassau,F,F,F,Bahamas
+BT,Kingdom of Bhutan,Bhutan,Bhoutan,BTN,UN Member State,Thimphu,F,F,F,Bhutan
+BU,Pyidaungzu Myanma Naingngandaw,Burma,BIRMANIE,BUR,,,F,F,F,
+BV,Bouvetøya,Bouvet Island,Île Bouvet,BVT,NO Territory,,F,F,F,Bouvetinsel
+BW,Botswana-Botswana,Botswana,Botswana,BWA,UN Member State,Gaborone,F,F,F,Botsuana
+BX,,Benelux Trademarks and Designs Office,,,,,F,F,F,
+BY,Беларусь,Belarus,Biélorussie,BLR,UN Member State,Minsk,F,F,F,Belarus
+BZ,Belize,Belize,Belize,BLZ,UN Member State,Belmopan,F,F,F,Belize
+CA,Canada-Canada,Canada,Canada,CAN,UN Member State,Ottawa,F,F,F,Kanada
+CC,Cocos Keeling Islands,Cocos (Keeling) Islands,Îles des Cocos,CCK,AU Territory,West Island,F,F,F,Kokosinseln
+CD,République Démocratique du Congo-Kongo-Kongó-Kongu-Kongo,Democratic Republic of The Congo,République démocratique du Congo,COD,UN Member State,Kinshasa,F,F,F,Demokratische Republik Kongo
+CF,République Centrafricaine-Ködörösêse Tî Bêafrîka,Central African Republic,République centrafricaine,CAF,UN Member State,Bangui,F,F,F,Zentralafrikanische Republik
+CG,Congo-Kongo-Kongó,Congo,Congo,COG,UN Member State,Brazzaville,F,F,F,Kongo
+CH,Schweiz-Suisse-Svizzera-Svizra,Switzerland,Suisse,CHE,UN Member State,Bern,F,T,F,Schweiz
+CI,Côte D’Ivoire,Côte D’Ivoire,Côte d’Ivoire,CIV,UN Member State,Yamoussoukro,F,F,F,Côte d’Ivoire
+CK,Cook Islands-Kūki 'Āirani,Cook Islands,Îles Cook,COK,NZ Territory,Avarua,F,F,F,Cookinseln
+CL,Chile,Chile,Chili,CHL,UN Member State,Santiago,F,F,F,Chile
+CM,Cameroon-Cameroun,Cameroon,Cameroun,CMR,UN Member State,Yaoundé,F,F,F,Kamerun
+CN,中國,China,Chine,CHN,UN Member State,Beijing,F,F,F,China
+CO,Colombia,Colombia,Colombie,COL,UN Member State,Bogotá,F,F,F,Kolumbien
+CP,Île Clipperton,Clipperton Island,Île Clipperton,CPT,FR Territory,,F,F,F,Clipperton Insel
+CR,Costa Rica,Costa Rica,Costa Rica,CRI,UN Member State,San José,F,F,F,Costa Rica
+CS,Srbija I Crna Gora,Serbia and Montenegro,SERBIE-ET-MONTÉNÉGRO,SCG,,,F,F,F,
+CU,Cuba,Cuba,Cuba,CUB,UN Member State,Havana,F,F,F,Kuba
+CV,Cabo Verde,Cape Verde,Cap-Vert,CPV,UN Member State,Praia,F,F,F,Cabo Verde
+CX,Christmas Island,Christmas Island,Île Christmas,CXR,AU Territory,The Settlement,F,F,F,Weihnachtsinsel
+CY,Κύπρος-Kıbrıs,Cyprus,Chypre,CYP,UN Member State,Nicosia,T,F,F,Zypern
+CZ,Česká Republika,Czechia,Tchéquie,CZE,UN Member State,Prague,T,F,F,Tschechien
+DE,Deutschland,Germany,Allemagne,DEU,UN Member State,Berlin,T,F,F,Deutschland
+DG,Diego Garcia,Diego Garcia,DIEGO GARCIA,DGA,,,F,F,F,
+DJ,جيبوتي-Djibouti-Jabuuti,Djibouti,Djibouti,DJI,UN Member State,Djibouti,F,F,F,Dschibuti
+DK,Danmark,Denmark,Danemark,DNK,UN Member State,Copenhagen,T,F,F,Dänemark
+DM,Dominica-Dominique,Dominica,Dominique,DMA,UN Member State,Roseau,F,F,F,Dominica
+DO,República Dominicana,Dominican Republic,République dominicaine,DOM,UN Member State,Santo Domingo,F,F,F,Dominikanische Republik
+DY,République du Benin,Benin,BÉNIN,,,,F,F,F,
+DZ,الجزائر,Algeria,Algérie,DZA,UN Member State,Algiers,F,F,F,Algerien
+EA,,Ceuta and Melilla,,,,,F,F,F,
+EC,Ikwadur-Ecuador,Ecuador,Équateur,ECU,UN Member State,Quito,F,F,F,Ecuador
+EE,Eesti,Estonia,Estonie,EST,UN Member State,Tallinn,T,F,F,Estland
+EF,,Union of Countries Under The European Community Pa,,,,,F,F,F,
+EG,مصر,Egypt,Égypte,EGY,UN Member State,Cairo,F,F,F,Ägypten
+EH,الصحراء الغربية,Western Sahara,Sahara occidental,ESH,Non-Self-Governing Territory,Laayoune,F,F,F,Westsahara
+EM,,European Trademark Office,,,,,F,F,F,
+EP,,European Patent Organization,,,,,F,F,F,
+ER,إريتريا-Eritrea-ኤርትራ,Eritrea,Érythrée,ERI,UN Member State,Asmara,F,F,F,Eritrea
+ES,España,Spain,Espagne,ESP,UN Member State,Madrid,T,F,F,Spanien
+AX,Ahvenanmaan Maakunta-Landskapet Åland,Åland Islands,Îles Åland,ALA,,,F,F,F,Ålandinseln
+IN,India-भारत,India,Inde,IND,UN Member State,New Delhi,F,F,F,Indien
+IO,British Indian Ocean Territory,British Indian Ocean Territory,Territoire britannique de l’océan Indien,IOT,UK Territory,,F,F,F,Britisches Territorium im Indischen Ozean
+IQ,العراق-Îraq,Iraq,Iraq,IRQ,UN Member State,Baghdad,F,F,F,Irak
+IR,ایران,Iran,Iran,IRN,UN Member State,Tehran,F,F,F,Iran
+IS,Ísland,Iceland,Islande,ISL,UN Member State,Reykjavík,F,T,F,Island
+IT,Italia,Italy,Italie,ITA,UN Member State,Rome,T,F,F,Italien
+JA,Jamaica,Jamaica,JAMAÏQUE,,,,F,F,F,
+JE,Jersey-Jersey,Jersey,Jersey,JEY,UK Territory,St. Helier,F,F,F,Jersey
+JM,Jamaica,Jamaica,Jamaïque,JAM,UN Member State,Kingston,F,F,F,Jamaika
+JO,الأردن,Jordan,Jordanie,JOR,UN Member State,Amman,F,F,F,Jordanien
+JP,日本,Japan,Japon,JPN,UN Member State,Tokyo,F,F,F,Japan
+KE,Kenya-Kenya,Kenya,Kenya,KEN,UN Member State,Nairobi,F,F,F,Kenia
+KG,Kırgızstan-Кыргызстан,Kyrgyzstan,Kirghizstan,KGZ,UN Member State,Bishkek,F,F,F,Kirgisistan
+KH,កម្ពុជា,Cambodia,Cambodge,KHM,UN Member State,Phnom Penh,F,F,F,Kambodscha
+KI,Kiribati,Kiribati,Kiribati,KIR,UN Member State,Tarawa,F,F,F,Kiribati
+KM,جزر القمر-Comores-Komori,Comoros,Comores,COM,UN Member State,Moroni,F,F,F,Komoren
+KN,Saint Kitts and Nevis,Saint Kitts and Nevis,Saint-Christophe-et-Niévès,KNA,UN Member State,Basseterre,F,F,F,St. Kitts und Nevis
+KP,조선민주주의인민공화국,North Korea,Corée du Nord,PRK,UN Member State,Pyongyang,F,F,F,Nordkorea
+KR,대한민국,South Korea,Corée du Sud,KOR,UN Member State,Seoul,F,F,F,Südkorea
+KW,الكويت,Kuwait,Koweït,KWT,UN Member State,Kuwait,F,F,F,Kuwait
+KY,Cayman Islands,Cayman Islands,Îles Caïmans,CYM,UK Non-Self-Governing Territory,George Town,F,F,F,Kaimaninseln
+KZ,Қазақстан,Kazakhstan,Kazakhstan,KAZ,UN Member State,Nur-Sultan,F,F,F,Kasachstan
+LA,ປະເທດລາວ,Laos,Laos,LAO,UN Member State,Vientiane,F,F,F,Laos
+LB,لبنان,Lebanon,Liban,LBN,UN Member State,Beirut,F,F,F,Libanon
+LC,Saint Lucia,Saint Lucia,Sainte-Lucie,LCA,UN Member State,Castries,F,F,F,St. Lucia
+LF,,Libya Fezzan,,,,,F,F,F,
+LI,Liechtenstein,Liechtenstein,Liechtenstein,LIE,UN Member State,Vaduz,F,T,F,Liechtenstein
+LK,ශ්‍රී ලංකාව-இலங்கை,Sri Lanka,Sri Lanka,LKA,UN Member State,Sri Jayewardenepura Kotte,F,F,F,Sri Lanka
+MT,Malta-Malta,Malta,Malte,MLT,UN Member State,Valletta,T,F,F,Malta
+MU,Mauritius,Mauritius,Maurice,MUS,UN Member State,Port Louis,F,F,F,Mauritius
+MV,Republic of Maldives,Maldives,Maldives,MDV,UN Member State,Male,F,F,F,Malediven
+MW,Malawi-Malaŵi,Malawi,Malawi,MWI,UN Member State,Lilongwe,F,F,F,Malawi
+MX,México,Mexico,Mexique,MEX,UN Member State,México,F,F,F,Mexiko
+MY,Malaysia,Malaysia,Malaisie,MYS,UN Member State,Kuala Lumpur,F,F,F,Malaysia
+MZ,Moçambique,Mozambique,Mozambique,MOZ,UN Member State,Maputo,F,F,F,Mosambik
+NA,Namibia,Namibia,Namibie,NAM,UN Member State,Windhoek,F,F,F,Namibia
+NC,Nouvelle-Calédonie,New Caledonia,Nouvelle-Calédonie,NCL,FR Non-Self-Governing Territory,Nouméa,F,F,F,Neukaledonien
+NE,Niger,Niger,Niger,NER,UN Member State,Niamey,F,F,F,Niger
+NF,Norfolk Island-Norfuk Ailen,Norfolk Island,Île Norfolk,NFK,AU Territory,Kingston,F,F,F,Norfolkinsel
+NG,Nigeria,Nigeria,Nigeria,NGA,UN Member State,Abuja,F,F,F,Nigeria
+NI,Nicaragua,Nicaragua,Nicaragua,NIC,UN Member State,Managua,F,F,F,Nicaragua
+NL,Nederland,Netherlands,Pays-Bas,NLD,UN Member State,Amsterdam,T,F,F,Niederlande
+AD,Andorra,Andorra,Andorre,AND,UN Member State,Andorra la Vella,F,F,F,Andorra
+AE,الإمارات العربية المتحدة,United Arab Emirates,Émirats arabes unis,ARE,UN Member State,Abu Dhabi,F,F,F,Vereinigten Arabischen Emirate
+AF,افغانستان-افغانستان,Afghanistan,Afghanistan,AFG,UN Member State,Kabul,F,F,F,Afghanistan
+AG,Antigua and Barbuda,Antigua and Barbuda,Antigua-et-Barbuda,ATG,UN Member State,St John's,F,F,F,Antigua und Barbuda
+AI,Anguilla,Anguilla,Anguilla,AIA,UK Non-Self-Governing Territory,The Valley,F,F,F,Anguilla
+AL,Shqipëria,Albania,Albanie,ALB,UN Member State,Tirana,F,F,T,Albanien
+AM,Հայաստան,Armenia,Arménie,ARM,UN Member State,Yerevan,F,F,F,Armenien
+AN,Nederlandse Antillen,Netherlands Antilles,,ANT,NL Territory,Willemstad,F,F,F,
+AO,Angola,Angola,Angola,AGO,UN Member State,Luanda,F,F,F,Angola
+AP,,African Regional Industrial Property Organization,,,,,F,F,F,
+AQ,Antarctica,Antarctica,Antarctique,ATA,Sovereignty unsettled,,F,F,F,Antarktis
+AR,Argentina,Argentina,Argentine,ARG,UN Member State,Buenos Aires,F,F,F,Argentinien
+AS,American Samoa-Sāmoa Amelika,American Samoa,Samoa américaines,ASM,US Non-Self-Governing Territory,Pago Pago,F,F,F,Amerikanisch-Samoa
+AT,Österreich,Austria,Autriche,AUT,UN Member State,Vienna,T,F,F,Österreich
+AU,Australia,Australia,Australie,AUS,UN Member State,Canberra,F,F,F,Australien
+AW,Aruba-Aruba,Aruba,Aruba,ABW,NL Self-Governing Territory,Oranjestad,F,F,F,Aruba
+LS,Lesotho-Lesotho,Lesotho,Lesotho,LSO,UN Member State,Maseru,F,F,F,Lesotho
+LT,Lietuva,Lithuania,Lituanie,LTU,UN Member State,Vilnius,T,F,F,Litauen
+LU,Luxemburg-Luxembourg-Lëtzebuerg,Luxembourg,Luxembourg,LUX,UN Member State,Luxembourg,T,F,F,Luxemburg
+LV,Latvija,Latvia,Lettonie,LVA,UN Member State,Riga,T,F,F,Lettland
+LY,دولة ليبيا,Libya,Libye,LBY,UN Member State,Tripoli,F,F,F,Libyen
+MA,المغرب,Morocco,Maroc,MAR,UN Member State,Rabat,F,F,F,Marokko
+MC,Monaco,Monaco,Monaco,MCO,UN Member State,Monaco,F,F,F,Monaco
+MD,Moldova,Moldova,Moldavie,MDA,UN Member State,Chisinau,F,F,T,Moldau
+MG,Madagascar-Madagasikara,Madagascar,Madagascar,MDG,UN Member State,Antananarivo,F,F,F,Madagaskar
+MH,Marshall Islands-Aorōkin M̧Ajeļ,Marshall Islands,Îles Marshall,MHL,UN Member State,Majuro,F,F,F,Marshallinseln
+MK,Северна Македонија,North Macedonia,Macédoine du Nord,MKD,UN Member State,Skopje,F,F,T,Nordmazedonien
+ML,Mali,Mali,Mali,MLI,UN Member State,Bamako,F,F,F,Mali
+MM,Myanma,Myanmar/Burma,Myanmar/Birmanie,MMR,UN Member State,Yangon,F,F,F,Myanmar/Birma
+MN,Монгол Улс,Mongolia,Mongolie,MNG,UN Member State,Ulaanbaatar,F,F,F,Mongolei
+MO,澳門-Macau,Macau,Macao,MAC,CN Special Administrative Region,Macau,F,F,F,Macau
+MP,Northern Mariana Islands-Notte Mariånas-Northern Mariana Islands,Northern Mariana Islands,Îles Mariannes du Nord,MNP,US Territory,Saipan,F,F,F,Nördlichen Marianen
+MQ,Martinique,Martinique,Martinique,MTQ,FR Territory,Fort-de-France,F,F,F,Martinique
+MR,موريتانيا,Mauritania,Mauritanie,MRT,UN Member State,Nouakchott,F,F,F,Mauretanien
+MS,Montserrat,Montserrat,Montserrat,MSR,UK Non-Self-Governing Territory,Plymouth,F,F,F,Montserrat
+HR,Hrvatska,Croatia,Croatie,HRV,UN Member State,Zagreb,T,F,F,Kroatien
+HT,Haïti-Ayiti,Haiti,Haïti,HTI,UN Member State,Port-au-Prince,F,F,F,Haiti
+HU,Magyarország,Hungary,Hongrie,HUN,UN Member State,Budapest,T,F,F,Ungarn
+IB,,International Bureau of Wipo,,,,,F,F,F,
+IC,,Canary Islands,,,,,F,F,F,
+ID,Indonesia,Indonesia,Indonésie,IDN,UN Member State,Jakarta,F,F,F,Indonesien
+IE,Ireland-Éire,Ireland,Irlande,IRL,UN Member State,Dublin,T,F,F,Irland
+IL,إسرائيل-ישראל,Israel,Israël,ISR,UN Member State,Jerusalem (Disputed),F,F,F,Israel
+IM,Isle of Man-Ellan Vannin,Isle of Man,Île de Man,IMN,UK territory,Douglas,F,F,F,Insel Man
+XI,Kuril Islands (Disputed Territory),Kuril Islands,,XI,Sovereignty unsettled,,F,F,F,
+XJ,Liancourt Rock (Disputed Territory),Liancourt Rock,,XJ,Sovereignty unsettled,,F,F,F,
+XK,Kosovo,Kosovo,,XK,Sovereignty unsettled,,F,F,F,
+XL,Navassa Island (Disputed Territory),Navassa Island,,XL,US Territory,,F,F,F,
+XM,Scarborough Reef (Disputed Territory),Scarborough Reef,,XM,Sovereignty unsettled,,F,F,F,
+XN,Senkaku Islands (Disputed Territory),Senkaku Islands,,XN,Sovereignty unsettled,,F,F,F,
+XO,"Fr Territory (Juan de Nova, Glorioso, Europa, Tromelin, Bassas Da India)",Bassas Da India,,XO,FR Territory,,F,F,F,
+XP,China / Philippines / Viet Nam / Taiwan / Malaysia (Disputed Territory),,,XP,Sovereignty unsettled,,F,F,F,
+XQ,China / Taiwan / Viet Nam (Disputed Territory),,,XQ,Sovereignty unsettled,,F,F,F,
+XR,China / Taiwan / Japan (Disputed Territory),,,XR,Sovereignty unsettled,,F,F,F,
+XS,Japan / South Korea (Disputed Territory),,,XS,Sovereignty unsettled,,F,F,F,
+XT,Russia / Japan (Disputed Territory),,,XT,Sovereignty unsettled,,F,F,F,
+XU,Abyei Region (Disputed Territory),Abyei,,XU,Sovereignty unsettled,,F,F,F,
+XV,Bir Tawil (Disputed Territory),Bir Tawil (Disputed Territory),,XV,Sovereignty unsettled,,F,F,F,
+XW,Disputed Western Sahara/Mauritania,,,XW,,,F,F,F,
+XX,Disputed Kenya/Somalia,,,XX,,,F,F,F,
+XY,Trinidad and Tobago/Venezuela/Guyana,,,XY,,,F,F,F,
+XZ,Sudan/Egypt,,,XZ,,,F,F,F,
+YE,اليمن,Yemen,Yémen,YEM,UN Member State,Sana’a,F,F,F,Jemen
+YT,Mayotte,Mayotte,Mayotte,MYT,FR Territory,Mamoudzou,F,F,F,Mayotte
+YU,Yugoslavia,Yugoslavia,YOUGOSLAVIE,YUG,,,F,F,F,
+YV,República Bolivariana de Venezuela,Venezuela,VENEZUELA,,,,F,F,F,
+ZA,Suid-Afrika-South Africa-Sewula Afrika-Afrika-Borwa-Afrika-Borwa-Ningizimu Afrika-Aforika Borwa-Afrika Dzonga-Afurika Tshipembe-Mzantsi Afrika-Ningizimu Afrika,South Africa,Afrique du Sud,ZAF,UN Member State,Pretoria (Adm.),F,F,F,Südafrika
+ZM,Zambia,Zambia,Zambie,ZMB,UN Member State,Lusaka,F,F,F,Sambia
+ZR,Zaire,Zaire,ZAÏRE,ZAR,,,F,F,F,
+ZW,Zimbabwe,Zimbabwe,Zimbabwe,ZWE,UN Member State,Harare,F,F,F,Simbabwe
+ZZ,,,,,,,F,F,F,
+RS,Србија,Serbia,Serbie,SRB,UN Member State,Belgrade,F,F,T,Serbien
+ME,Црна Гора,Montenegro,Monténégro,MNE,UN Member State,Podgorica,F,F,T,Montenegro
+MF,Saint-Martin,Saint Martin,Saint-Martin,MAF,FR Territory,,F,F,F,St. Martin
+BL,Saint-Barthélemy,Saint Barthélemy,Saint-Barthélemy,BLM,FR Territory,Gustavia,F,F,F,St. Barthélemy
+SS,South Sudan,South Sudan,Soudan du Sud,SSD,UN Member State,Juba,F,F,F,Südsudan
+LR,Liberia,Liberia,Liberia,LBR,UN Member State,Monrovia,F,F,F,Liberia
+BA,Bosna I Hercegovina-Bosna I Hercegovina-Босна И Херцеговина,Bosnia and Herzegovina,Bosnie-et-Herzégovine,BIH,UN Member State,Sarajevo,F,F,F,Bosnien und Herzegowina
+EL,Ελλάδα,Greece,Grèce,GRC,UN Member State,Athens,T,F,F,Griechenland
+TF,Terres Australes Et Antarctiques Françaises,French Southern and Antarctic Lands,Terres australes et antarctiques françaises,ATF,FR Territory,Port-aux-Français,F,F,F,Französischen Süd- und Antarktisgebiete
+EU,Европейски Съюз-Evropská Unie-Den Europæiske Union-Europäische Union-Ευρωπαϊκή Ένωση-European Union-Euroopa Liit-Euroopan Unioni-Union Européenne-An Taontas Eorpach-Europska Unija-Európai Unió-Unione Europea-Eiropas Savienība-Europos Sąjunga-Unjoni Ewrope,European Union,Union européenne,,,,F,F,F,Europäische Union
+PH,Philippines-Pilipinas,Philippines,Philippines,PHL,UN Member State,Manila,F,F,F,Philippinen
+QN,Puerto Rico and Virgin Islands of The United States,Puerto Rico and Virgin Islands of The United States,PUERTO RICO ET LES ÎLES VIERGES DES ÉTATS-UNIS,,US Territory,,F,F,F,
+QO,Guadeloupe and Martinique,Guadeloupe and Martinique,GUADELOUPE ET MARTINIQUE,,FR Territory,,F,F,F,
+QP,Colombia - Jamaica,Colombia - Jamaica,COLOMBIE - JAMAÏQUE,,Joint Regime,,F,F,F,
+QQ,Nigeria - Sao Tome and Principe,Nigeria - Sao Tome and Principe,NIGERIA - SAO TOMÉ ET PRINCIPE,,Joint Regime,,F,F,F,
+QR,Japan - Korea,Japan - Korea,JAPON - CORÉE,,Joint Regime,,F,F,F,
+QS,Australia/Indonesia,Australia/Indonesia,,,Joint Regime,,F,F,F,
+QT,,,,,,,F,F,F,
+QU,,,,,,,F,F,F,
+QV,,,,,,,F,F,F,
+QW,,,,,,,F,F,F,
+QX,,,,,,,F,F,F,
+QY,,,,,,,F,F,F,
+QZ,,,,,,,F,F,F,
+RA,República Argentina,Argentina,ARGENTINE,,,,F,F,F,
+RB,República de Bolivia,Bolivia,BOLIVIE,,,,F,F,F,
+RC,Zhonghua Renmin Gongheguo,China,CHINE,,,,F,F,F,
+RE,Réunion,Réunion,Réunion,REU,FR Territory,Saint-Denis,F,F,F,Réunion
+RH,République D'Haiti,Haiti,HAÏTI,,,,F,F,F,
+RI,Republik Indonesia,Indonesia,L'INDONÉSIE,,,,F,F,F,
+RL,Al Jumhuriyah Al Lubnaniyah,Lebanon,LIBAN,,,,F,F,F,
+RM,République de Madagascar,Madagascar,MADAGASCAR,,,,F,F,F,
+RN,République du Niger,Niger,NIGER,,,,F,F,F,
+RO,România,Romania,Roumanie,ROU,UN Member State,Bucharest,T,F,F,Rumänien
+RP,Republika Ng Pilipinas,Philippines,PHILIPPINES,,,,F,F,F,
+RU,Россия,Russian Federation,Fédération de Russie,RUS,UN Member State,Moskva,F,F,F,Russische Föderation
+RW,Rwanda-Rwanda-Rwanda,Rwanda,Rwanda,RWA,UN Member State,Kigali,F,F,F,Ruanda
+SA,السعودية,Saudi Arabia,Arabie saoudite,SAU,UN Member State,Riyadh,F,F,F,Saudi-Arabien
+SB,Solomon Islands,Solomon Islands,Îles Salomon,SLB,UN Member State,Honiara,F,F,F,Salomonen
+SC,Sesel-Seychelles-Seychelles,Seychelles,Seychelles,SYC,UN Member State,Victoria,F,F,F,Seychellen
+SD,السودان-Sudan,Sudan,Soudan,SDN,UN Member State,Khartoum,F,F,F,Sudan
+SE,Sverige,Sweden,Suède,SWE,UN Member State,Stockholm,T,F,F,Schweden
+SF,Suomen Tasavalta,Finland,FINLANDE,,,,F,F,F,
+SG,新加坡-Singapore-Singapura-சிங்கப்பூர்,Singapore,Singapour,SGP,UN Member State,Singapore,F,F,F,Singapur
+SH,"Saint Helena, Ascension and Tristan Da Cunha","Saint Helena, Ascension and Tristan Da Cunha","Sainte-Hélène, Ascension et Tristan da Cunha",SHN,UK Non-Self-Governing Territory,Jamestown,F,F,F,"St. Helena, Ascension und Tristan da Cunha"
+SI,Slovinsko,Slovenia,Slovénie,SVN,UN Member State,Ljubljana,T,F,F,Slowenien
+SK,Slovensko,Slovakia,Slovaquie,SVK,UN Member State,Bratislava,T,F,F,Slowakei
+SL,Sierra Leone,Sierra Leone,Sierra Leone,SLE,UN Member State,Freetown,F,F,F,Sierra Leone
+SM,San Marino,San Marino,Saint-Marin,SMR,UN Member State,San Marino,F,F,F,San Marino
+SN,Sénégal,Senegal,Sénégal,SEN,UN Member State,Dakar,F,F,F,Senegal
+SO,الصومال-Soomaaliya,Somalia,Somalie,SOM,UN Member State,Mogadishu,F,F,F,Somalia
+SR,Suriname,Suriname,Suriname,SUR,UN Member State,Paramaribo,F,F,F,Suriname
+ST,São Tomé E Príncipe,São Tomé and Príncipe,Sao Tomé-et-Principe,STP,UN Member State,Sao Tomé,F,F,F,São Tomé und Príncipe
+SU,U.S.S.R.,Ussr,URSS,SUN,,,F,F,F,
+SV,El Salvador,El Salvador,El Salvador,SLV,UN Member State,San Salvador,F,F,F,El Salvador
+SY,سوريا,Syria,Syrie,SYR,UN Member State,Damascus,F,F,F,Syrien
+SZ,Kingdom of Eswatini,Eswatini,Eswatini,SWZ,UN Member State,Mbabane (adm.),F,F,F,Eswantini
+TA,Tristan Da Cunha,Tristan Da Cunha,TRISTAN DA CUNHA,TAA,,,F,F,F,
+TC,Turks and Caicos Islands,Turks and Caicos Islands,Îles Turks-et-Caïcos,TCA,UK Non-Self-Governing Territory,Cockburn Town,F,F,F,Turks- und Caicosinseln
+TD,تشاد-Tchad,Chad,Tchad,TCD,UN Member State,N'Djamena,F,F,F,Tschad
+TG,Togo,Togo,Togo,TGO,UN Member State,Lomé,F,F,F,Togo
+TH,ประเทศไทย,Thailand,Thaïlande,THA,UN Member State,Bangkok,F,F,F,Thailand
+TJ,Тоҷикистон,Tajikistan,Tadjikistan,TJK,UN Member State,Dushanbe,F,F,F,Tadschikistan
+TK,Tokelau-Tokelau,Tokelau,Tokélaou,TKL,NZ Non-Self-Governing Territory,Atafu,F,F,F,Tokelau
+TL,Timor-Leste-Timor Lorosae,Timor-Leste,Timor-Oriental,TLS,UN Member State,Dili,F,F,F,Timor-Leste
+TM,Türkmenistan,Turkmenistan,Turkménistan,TKM,UN Member State,Ashgabat,F,F,F,Turkmenistan
+TN,تونس,Tunisia,Tunisie,TUN,UN Member State,Tunis,F,F,F,Tunesien
+TO,Tonga-Tonga,Tonga,Tonga,TON,UN Member State,Nuku'alofa,F,F,F,Tonga
+TP,"Republika Demokratika Timor Lorosa'E (Tetum), República Democratica de Timor-Leste (Portuguese)",East Timor,TIMOR ORIENTAL,TMP,,,F,F,F,
+TR,Türkiye,Türkiye,Turquie,TUR,UN Member State,Ankara,F,F,T,Türkei
+TT,Trinidad and Tobago,Trinidad and Tobago,Trinidad-et-Tobago,TTO,UN Member State,Port of Spain,F,F,F,Trinidad und Tobago
+TV,Tuvalu-Tuvalu,Tuvalu,Tuvalu,TUV,UN Member State,Funafuti,F,F,F,Tuvalu
+TW,中華民國,Taiwan,Taïwan,TWN,,,F,F,F,Taiwan
+TZ,Tanzania,United Republic of Tanzania,République-Unie de Tanzanie,TZA,UN Member State,Dodoma,F,F,F,Tansania
+UA,Україна,Ukraine,Ukraine,UKR,UN Member State,Kyïv,F,F,T,Ukraine
+UG,Uganda-Uganda,Uganda,Ouganda,UGA,UN Member State,Kampala,F,F,F,Uganda
+UM,United States Minor Outlying Islands,United States Minor Outlying Islands,Îles mineures éloignées des États-Unis,UMI,US Territory,,F,F,F,Kleineren Amerikanischen Überseeinseln
+SJ,Svalbard Og Jan Mayen,Svalbard and Jan Mayen,Svalbard et Jan Mayen,SJM,NO Territory,Longyearbyen,F,T,F,Svalbard und Jan Mayen
+US,United States,United States,États-Unis,USA,UN Member State,"Washington, D.C.",F,F,F,Vereinigten Staaten
+UY,Uruguay,Uruguay,Uruguay,URY,UN Member State,Montevideo,F,F,F,Uruguay
+UZ,Узбекистан,Uzbekistan,Ouzbékistan,UZB,UN Member State,Tashkent,F,F,F,Usbekistan
+VC,Saint Vincent and The Grenadines,Saint Vincent and The Grenadines,Saint-Vincent-et-les-Grenadines,VCT,UN Member State,Kingstown,F,F,F,St. Vincent und die Grenadinen
+VE,Venezuela,Venezuela,Venezuela,VEN,UN Member State,Caracas,F,F,F,Venezuela
+VG,British Virgin Islands,British Virgin Islands,Îles Vierges britanniques,VGB,UK Non-Self-Governing Territory,Road Town,F,F,F,Britischen Jungferninseln
+VI,Us Virgin Islands,Us Virgin Islands,Îles Vierges américaines,VIR,US Non-Self-Governing Territory,Charlotte Amalie,F,F,F,Amerikanischen Jungferninseln
+VN,Việt Nam,Vietnam,Viêt Nam,VNM,UN Member State,Hanoi,F,F,F,Vietnam
+VU,Vanuatu-Vanuatu-Vanuatu,Vanuatu,Vanuatu,VUT,UN Member State,Port-Vila,F,F,F,Vanuatu
+WF,Wallis-Et-Futuna,Wallis and Futuna,Wallis-et-Futuna,WLF,FR Territory,Mata-Utu,F,F,F,Wallis und Futuna
+WG,Grenada,Grenada,GRENADE,,,,F,F,F,
+WL,Saint Lucia,Saint Lucia,SAINTE-LUCIE,,,,F,F,F,
+WO,,World Intellectual Property Organization,,,,,F,F,F,
+WS,Samoa-Sāmoa,Samoa,Samoa,WSM,UN Member State,Apia,F,F,F,Samoa
+WV,,Saint Vincent,,,,,F,F,F,
+XA,Paracel Islands (Disputed Territory),Paracel Islands,,XA,Sovereignty unsettled,,F,F,F,
+XB,Spratly Islands (Disputed Territory),Spratly Islands,,XB,Sovereignty unsettled,,F,F,F,
+XC,Aksai Chin (Disputed Territory),Aksai Chin,,XC,Sovereignty unsettled,,F,F,F,
+XD,Arunashal Pradesh (Disputed Territory),Arunachal Pradesh,,XD,Sovereignty unsettled,,F,F,F,
+XE,China/India (Disputed Territory),China/India,,XE,Sovereignty unsettled,,F,F,F,
+XF,Hala'Ib Triangle (Disputed Territory),Hala'Ib Triangle,,XF,Sovereignty unsettled,,F,F,F,
+XG,Ilemi Triangle (Disputed Territory),Ilemi Triangle,,XG,Sovereignty unsettled,,F,F,F,
+XH,Jammu Kashmir (Disputed Territory),Jammu Kashmir,,XH,Sovereignty unsettled,,F,F,F,
+BQ,"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba","Bonaire, Saint-Eustache et Saba",BES,NL Non-Self-Governing Territory,,F,F,F,"Bonaire, Sint Eustatius und Saba"
+CW,Curaçao,Curaçao,Curaçao,CUW,NL Self-Governing Territory,Willemstad,F,F,F,Curaçao
+SX,Sint-Maarten,Sint-Maarten,SINT-MAARTEN,SXM,NL Self-Governing Territory,Philipsburg,F,F,F,
+GB,,United Kingdom,ROYAUME-UNI,,UN Member State,London,F,F,F,
+GR,Ελλαδα,Greece,GRÈCE,GRC,UN Member State,Athens,T,F,F,
+AC,Territory of Ashmore and Cartier Islands,Ashmore and Cartier Islands,,ASC,AU Territory,,F,F,F,
