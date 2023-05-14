@@ -9,7 +9,7 @@
 
 
 
-# In[1]:
+# In[48]:
 
 
 import requests
@@ -20,11 +20,30 @@ from timezonefinder import TimezoneFinder
 from datetime import datetime
 import pytz
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageSequence
 from io import BytesIO
 
 import glob
 import os
+
+import pandas as pd
+import geopandas as gpd
+import plotly.express as px
+
+
+# In[49]:
+
+
+# import matplotlib.pyplot as plt
+# import geoplot as gplt
+# import geoplot.crs as gcrs
+# import pyproj
+
+
+# In[77]:
+
+
+
 
 
 # ## 1. Getting the coordinates
@@ -66,7 +85,7 @@ print(tz_value)
 # https://www.rainviewer.com/api/weather-maps-api.html
 
 
-# In[6]:
+# In[68]:
 
 
 weather_url = "https://api.rainviewer.com/public/weather-maps.json"
@@ -74,7 +93,7 @@ weather_response = requests.get(weather_url)
 weather_response.status_code
 
 
-# In[7]:
+# In[69]:
 
 
 # weather_response.text
@@ -82,13 +101,13 @@ weather_request = weather_response.request
 weather_request.headers
 
 
-# In[32]:
+# In[70]:
 
 
 # weather_response.json()
 
 
-# In[10]:
+# In[71]:
 
 
 print("Time of request:")
@@ -96,9 +115,58 @@ request_time = datetime.fromtimestamp(weather_response.json()['generated'], tz=t
 print(request_time.strftime("%Y-%m-%d %H:%M:%S %Z"))
 
 
-# ## 3. Saving images and creating a gif
+# ## 3. Plotting the geomap
 
-# In[41]:
+# In[123]:
+
+
+my_zoom = 4
+
+
+# In[82]:
+
+
+cities = pd.read_csv("worldcities.csv")
+cities_coord = cities[['city', 'lat', 'lng', 'iso2', 'population']].sort_values('population', ascending=False)
+
+cities_coord_gdf = gpd.GeoDataFrame(
+    cities_coord, geometry=gpd.points_from_xy(cities_coord.lng, cities_coord.lat), crs="EPSG:4326"
+)
+cities_coord_gdf.head()
+
+
+# In[79]:
+
+
+center_dict = {'lat': my_coordinates[0], 'lon': my_coordinates[1]}
+
+
+# In[122]:
+
+
+back_dir = "background_png"
+
+# os.mkdir(back_dir)
+
+
+# In[124]:
+
+
+fig = px.scatter_mapbox(cities_coord_gdf[cities_coord_gdf['population'] >= 500000], 
+                        lat="lat", lon="lng",
+                        color_discrete_sequence=["fuchsia"], 
+                        zoom=my_zoom, height=512, width=512,
+                        center=center_dict)
+fig.update_layout(mapbox_style="open-street-map")
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+# fig.show()
+# fig.write_image("berlin_zoom_4.png")
+fig.write_image(back_dir + "/" + str.lower(location_name) + "_zoom_" + str(my_zoom) + ".png")
+
+
+# ## 4. Saving images and creating a gif
+
+# In[83]:
 
 
 # function: 
@@ -147,7 +215,7 @@ def download_png_by_url(weather_response, my_coordinates, size, zoom, color, smo
                 dir_name = png_nowcast_dir
             else:
                 break
-            img = img.save(dir_name + "/" + str.lower(location_name) + " {}.png".format(dd['time']))
+            img = img.save(dir_name + "/" + str.lower(location_name) + "_{}.png".format(dd['time']))
             
 #         print("OK:", dttm.strftime("%Y-%m-%d %H:%M:%S %Z"))
         print("Done:", text1)
@@ -166,11 +234,11 @@ def clear_folder(folder):
         os.remove(f)
 
 
-# In[36]:
+# In[101]:
 
 
 def filename_key(x):
-    return int(x.split()[1].split('.')[0])
+    return int(x.split('_')[-1].split('.')[0])
 
 def make_gif(source_folder, target_folder):
     frames = [Image.open(image) for image in sorted(glob.glob(f"{source_folder}/*.png"), key=lambda x: filename_key(x))]
@@ -181,7 +249,23 @@ def make_gif(source_folder, target_folder):
 # disposal=2 - for replacement instead of overlaying 
 
 
-# In[12]:
+# In[119]:
+
+
+def gif_merge_back(gif_path, back_path, output_folder):
+    gif_im = Image.open(gif_path)
+    background = Image.open(back_path)
+    frames = []
+    for im_frame in ImageSequence.Iterator(gif_im):
+        frame = background.copy()
+        frame.paste(im_frame, mask=im_frame.convert("LA"))
+        frames.append(frame)
+    gif_name = gif_path.split('/')[-1].split('.')[0]
+    frames[0].save(output_folder + "/" + gif_name + "_back.gif", save_all=True, duration=300, append_images=frames[1:], loop=0)
+    
+
+
+# In[62]:
 
 
 # defining directories for saving images and gifs
@@ -195,22 +279,22 @@ gif_dir = 'past_gif'
 # os.mkdir(gif_dir)
 
 
-# In[42]:
+# In[84]:
 
 
 # saving images for past timestamps
 
 download_png_by_url(weather_response, my_coordinates, 
-                    size=512, zoom=3, color=4, smooth=0, snow=0, key='past', save_flg=1)
+                    size=512, zoom=my_zoom, color=4, smooth=0, snow=0, key='past', save_flg=1)
 
 
-# In[43]:
+# In[125]:
 
 
 # saving forecast images
 
 download_png_by_url(weather_response, my_coordinates, 
-                    size=512, zoom=3, color=4, smooth=0, snow=0, key='nowcast', save_flg=1)
+                    size=512, zoom=my_zoom, color=4, smooth=0, snow=0, key='nowcast', save_flg=1)
 
 
 # In[37]:
@@ -222,10 +306,16 @@ clear_folder(gif_dir)
 make_gif(png_past_dir, gif_dir)
 
 
-# In[ ]:
+# In[127]:
 
 
+# adding the map background under the rain mask
+                    
+gif_path = [f for f in glob.glob(gif_dir + '/*.gif')][0]
+back_path = [f for f in glob.glob(back_dir + '/*.png')][0]
+output_folder = gif_dir
 
+gif_merge_back(gif_path, back_path, output_folder)
 
 
 # # ====== NOTES:
