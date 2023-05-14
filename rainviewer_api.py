@@ -27,7 +27,7 @@ import glob
 import os
 
 import pandas as pd
-import geopandas as gpd
+# import geopandas as gpd # isn't used
 import plotly.express as px
 
 
@@ -123,16 +123,17 @@ print(request_time.strftime("%Y-%m-%d %H:%M:%S %Z"))
 my_zoom = 4
 
 
-# In[82]:
+# In[132]:
 
 
 cities = pd.read_csv("worldcities.csv")
 cities_coord = cities[['city', 'lat', 'lng', 'iso2', 'population']].sort_values('population', ascending=False)
+cities_coord.head()
 
-cities_coord_gdf = gpd.GeoDataFrame(
-    cities_coord, geometry=gpd.points_from_xy(cities_coord.lng, cities_coord.lat), crs="EPSG:4326"
-)
-cities_coord_gdf.head()
+# cities_coord = gpd.GeoDataFrame(
+#     cities_coord, geometry=gpd.points_from_xy(cities_coord.lng, cities_coord.lat), crs="EPSG:4326"
+# )
+# cities_coord.head()
 
 
 # In[79]:
@@ -149,10 +150,10 @@ back_dir = "background_png"
 # os.mkdir(back_dir)
 
 
-# In[131]:
+# In[133]:
 
 
-fig = px.scatter_mapbox(cities_coord_gdf[cities_coord_gdf['population'] >= 500000], 
+fig = px.scatter_mapbox(cities_coord[cities_coord['population'] >= 500000], 
                         lat="lat", lon="lng",
                         color_discrete_sequence=["darkblue"], # "fuchsia"
                         zoom=my_zoom, height=512, width=512,
