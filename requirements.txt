@@ -19,4 +19,5 @@ jupyterlab-widgets==3.0.7
 jupyterlab_server==2.22.1
 pandas==1.5.2
 geopandas==0.12.2
+Cartopy==0.21.1
 geoplot==0.5.1
