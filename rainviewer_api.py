@@ -149,18 +149,18 @@ back_dir = "background_png"
 # os.mkdir(back_dir)
 
 
-# In[124]:
+# In[131]:
 
 
 fig = px.scatter_mapbox(cities_coord_gdf[cities_coord_gdf['population'] >= 500000], 
                         lat="lat", lon="lng",
-                        color_discrete_sequence=["fuchsia"], 
+                        color_discrete_sequence=["darkblue"], # "fuchsia"
                         zoom=my_zoom, height=512, width=512,
-                        center=center_dict)
+                        center=center_dict,
+                        size='population', size_max=20)
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 # fig.show()
-# fig.write_image("berlin_zoom_4.png")
 fig.write_image(back_dir + "/" + str.lower(location_name) + "_zoom_" + str(my_zoom) + ".png")
 
 
