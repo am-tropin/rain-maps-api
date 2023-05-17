@@ -1,2 +1,2 @@
 1. To compare the forecast and the past images.
-2. To add geographic map under the rain map mask.
+2. To convert images to gif only for the last two days.
