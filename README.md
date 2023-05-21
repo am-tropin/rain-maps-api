@@ -1,6 +1,6 @@
 # Berlin Rain Map Creator
 
-The project gathers the image dataset of rain map masks in Europe around Berlin and converts its to gif. 
+The project gathers the image dataset of rain map masks in Europe around Berlin and converts its to gif for last 48 hours. 
 
 Libraries: requests, pandas, plotly, geopy, datetime, timezonefinder, pytz, PIL, io, glob, os
 
@@ -29,6 +29,6 @@ Libraries: requests, pandas, plotly, geopy, datetime, timezonefinder, pytz, PIL,
 
 - The data of cities are marked on the geographic map using **Plotly**. The background map with cities is in [background_png](https://github.com/am-tropin/rain-maps-api/tree/main/background_png) folder.
 
-- Gathered past images are merged into a gif file and added the background map. The final gif is in [past_gif](https://github.com/am-tropin/rain-maps-api/tree/main/past_gif) folder. The example of result is also below:
+- Gathered past images for last 48 hours are merged into a gif file and added the background map. The final gif is in [past_gif](https://github.com/am-tropin/rain-maps-api/tree/main/past_gif) folder. The example of result is also below:
 
 ![Gif for May 14, 2023](https://github.com/am-tropin/rain-maps-api/blob/main/for_readme/berlin%202023-05-14%2015%3A20%3A19%20CEST_back.gif)
