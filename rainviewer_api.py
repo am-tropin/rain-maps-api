@@ -9,7 +9,7 @@
 
 
 
-# In[48]:
+# In[142]:
 
 
 import requests
@@ -17,7 +17,7 @@ import requests
 from geopy.geocoders import Nominatim
 
 from timezonefinder import TimezoneFinder
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 
 from PIL import Image, ImageDraw, ImageFont, ImageSequence
@@ -27,7 +27,7 @@ import glob
 import os
 
 import pandas as pd
-# import geopandas as gpd # isn't used
+# import geopandas as gpd  # isn't used
 import plotly.express as px
 
 
@@ -85,7 +85,7 @@ print(tz_value)
 # https://www.rainviewer.com/api/weather-maps-api.html
 
 
-# In[68]:
+# In[135]:
 
 
 weather_url = "https://api.rainviewer.com/public/weather-maps.json"
@@ -93,7 +93,7 @@ weather_response = requests.get(weather_url)
 weather_response.status_code
 
 
-# In[69]:
+# In[136]:
 
 
 # weather_response.text
@@ -101,13 +101,13 @@ weather_request = weather_response.request
 weather_request.headers
 
 
-# In[70]:
+# In[137]:
 
 
 # weather_response.json()
 
 
-# In[71]:
+# In[138]:
 
 
 print("Time of request:")
@@ -235,14 +235,22 @@ def clear_folder(folder):
         os.remove(f)
 
 
-# In[101]:
+# In[143]:
 
 
 def filename_key(x):
     return int(x.split('_')[-1].split('.')[0])
 
+# check if timestamp is not more than 2 days from request time
+def filter_by_dttm(x):
+#     datetime.timedelta(days=2, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0)
+    if request_time - datetime.fromtimestamp(filename_key(x), tz=tz_value) <= timedelta(days=2):
+        return True
+    else:
+        return False
+    
 def make_gif(source_folder, target_folder):
-    frames = [Image.open(image) for image in sorted(glob.glob(f"{source_folder}/*.png"), key=lambda x: filename_key(x))]
+    frames = [Image.open(image) for image in sorted(glob.glob(f"{source_folder}/*.png"), key=lambda x: filename_key(x)) if filter_by_dttm(image) is True]
     frame_one = frames[0]
     frame_one.save(target_folder + "/" + str.lower(location_name) + f"{request_time: %Y-%m-%d %H:%M:%S %Z}.gif", format="GIF", append_images=frames,
                save_all=True, duration=300, loop=0, transparency=0, disposal=2)
@@ -280,7 +288,7 @@ gif_dir = 'past_gif'
 # os.mkdir(gif_dir)
 
 
-# In[84]:
+# In[139]:
 
 
 # saving images for past timestamps
@@ -289,7 +297,7 @@ download_png_by_url(weather_response, my_coordinates,
                     size=512, zoom=my_zoom, color=4, smooth=0, snow=0, key='past', save_flg=1)
 
 
-# In[125]:
+# In[140]:
 
 
 # saving forecast images
@@ -298,7 +306,7 @@ download_png_by_url(weather_response, my_coordinates,
                     size=512, zoom=my_zoom, color=4, smooth=0, snow=0, key='nowcast', save_flg=1)
 
 
-# In[37]:
+# In[144]:
 
 
 # creating a new gif file instead of a previous gif
@@ -307,7 +315,7 @@ clear_folder(gif_dir)
 make_gif(png_past_dir, gif_dir)
 
 
-# In[127]:
+# In[145]:
 
 
 # adding the map background under the rain mask
